@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"github.com/pedrofgodinho/adventOfCode2022/exercises"
 	"github.com/pedrofgodinho/adventOfCode2022/exercises/day1"
+	"github.com/pedrofgodinho/adventOfCode2022/exercises/day10"
 	"github.com/pedrofgodinho/adventOfCode2022/exercises/day2"
 	"github.com/pedrofgodinho/adventOfCode2022/exercises/day3"
 	"github.com/pedrofgodinho/adventOfCode2022/exercises/day4"
@@ -35,15 +36,16 @@ func main() {
 	}
 
 	solvers := map[string]exercises.Exercise{
-		"1": day1.Solver{},
-		"2": day2.Solver{},
-		"3": day3.Solver{},
-		"4": day4.Solver{},
-		"5": day5.Solver{},
-		"6": day6.Solver{},
-		"7": day7.Solver{},
-		"8": day8.Solver{},
-		"9": day9.Solver{},
+		"1":  day1.Solver{},
+		"2":  day2.Solver{},
+		"3":  day3.Solver{},
+		"4":  day4.Solver{},
+		"5":  day5.Solver{},
+		"6":  day6.Solver{},
+		"7":  day7.Solver{},
+		"8":  day8.Solver{},
+		"9":  day9.Solver{},
+		"10": day10.Solver{},
 	}
 
 	exercise := solvers[day]
