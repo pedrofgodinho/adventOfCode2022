@@ -11,6 +11,7 @@ import (
 	"github.com/pedrofgodinho/adventOfCode2022/exercises/day6"
 	"github.com/pedrofgodinho/adventOfCode2022/exercises/day7"
 	"github.com/pedrofgodinho/adventOfCode2022/exercises/day8"
+	"github.com/pedrofgodinho/adventOfCode2022/exercises/day9"
 	"os"
 )
 
@@ -42,6 +43,7 @@ func main() {
 		"6": day6.Solver{},
 		"7": day7.Solver{},
 		"8": day8.Solver{},
+		"9": day9.Solver{},
 	}
 
 	exercise := solvers[day]
